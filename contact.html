@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Verdora</title>
+<meta name="description" content="Get in touch with Verdora for order questions, wholesale inquiries, or press. We reply within two business days.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="logo">Verdora</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="gallery.html">Behind the Brand</a></li>
+      <li><a href="sustainability.html">Impact</a></li>
+      <li><a href="blog.html">Journal</a></li>
+      <li><a href="contact.html" class="nav-cta" aria-current="page">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+
+  <div class="page-head container">
+    <span class="eyebrow">Get in touch</span>
+    <h1>We read every message ourselves.</h1>
+    <p class="lede">Order questions, wholesale inquiries, press, or just want to know more about a farm — reach out below. We reply within two business days.</p>
+  </div>
+
+  <section style="padding-top: 0;">
+    <div class="container">
+      <div class="grid grid-2" style="align-items: start;">
+
+        <form id="contact-form" novalidate>
+          <div class="form-field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div class="form-field">
+            <label for="reason">Reason for contact</label>
+            <select id="reason" name="reason">
+              <option value="order">Order question</option>
+              <option value="wholesale">Wholesale &amp; press</option>
+              <option value="sourcing">Sourcing question</option>
+              <option value="other">Something else</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-note">In development, this form logs to the browser console. In production it posts to our support inbox via a serverless function.</p>
+        </form>
+
+        <div>
+          <h3 style="margin-bottom: 1rem;">Other ways to reach us</h3>
+          <p><strong>General &amp; order support</strong><br>hello@verdora-skincare.example</p>
+          <p><strong>Wholesale &amp; press</strong><br>wholesale@verdora-skincare.example</p>
+          <p><strong>Studio</strong><br>Open by appointment, Abbottabad, Khyber Pakhtunkhwa</p>
+          <div class="vine-divider" aria-hidden="true" style="margin: 2rem 0; max-width: 320px; padding: 0;">
+            <svg viewBox="0 0 320 40" preserveAspectRatio="none">
+              <path d="M0,20 C50,4 90,36 140,18 C190,0 230,32 280,16 C300,10 310,22 320,14" />
+              <circle cx="140" cy="18" r="4" />
+            </svg>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--forest-soft);">We honor every "not interested" immediately — no follow-up messages, no mailing list additions without consent.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Verdora</div>
+        <p style="max-width: 32ch; font-size: 0.9rem;">Organic skincare grown slowly, in small batches, from soil we know by name.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Behind the Brand</a></li>
+          <li><a href="sustainability.html">Impact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="blog.html">Journal</a></li>
+          <li><a href="contact.html">Wholesale &amp; press</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Pinterest</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Verdora Skincare. All rights reserved.</span>
+      <span>Made on unceded, hand-tended soil.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
